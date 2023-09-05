@@ -15,7 +15,6 @@
 - Redux Toolkit
 - TypeScript
 - Tailwind CSS
-- Axios
 
 ## Запуск проекта
 
@@ -29,5 +28,5 @@
 ## Деплой
 
 Вы также можете ознакомиться с развернутой версией приложения по ссылке на платформе Netlify:
-https://eloquent-gumdrop-0b46bc.netlify.app/
+
 

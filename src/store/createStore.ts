@@ -1,8 +1,8 @@
-import {combineReducers, configureStore} from '@reduxjs/toolkit';
+import {combineReducers, configureStore} from "@reduxjs/toolkit";
 import { todolistsReducer } from "./reducers/todolistsSlice/slice";
 import {tasksReducer} from "./reducers/tasksSlice/slice";
-import storage from 'redux-persist/lib/storage';
-import { persistReducer, persistStore } from 'redux-persist';
+import storage from "redux-persist/lib/storage";
+import { persistReducer } from "redux-persist";
 
 const persistConfig = {
   key: 'root',
