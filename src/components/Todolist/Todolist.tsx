@@ -1,4 +1,4 @@
-import React, {FC} from "react";
+import React, { FC } from "react";
 import { Task } from "./Task/Task";
 import { useAppSelector } from "../../common/hooks/useAppSelector";
 import { Button } from "../../common/components/Button/Button";
@@ -6,11 +6,11 @@ import { useAppDispatch } from "../../common/hooks/useAppDispatch";
 import { deleteTodolist } from "../../store/reducers/todolistsSlice/slice";
 import { FilteredButtons } from "./FilteredButtons/FilteredButtons";
 import { AddItem } from "../../common/components/addItem/AddItem";
-import {ITodolistType} from "../../store/reducers/todolistsSlice/types";
-import {addTask} from "../../store/reducers/tasksSlice/slice";
-import {tasksFilter} from "../../utils/tasksFilter";
-import {selectTodolists} from "../../store/reducers/todolistsSlice/selectors";
-import {selectTasks} from "../../store/reducers/tasksSlice/selectors";
+import { ITodolistType } from "../../store/reducers/todolistsSlice/types";
+import { addTask } from "../../store/reducers/tasksSlice/slice";
+import { tasksFilter } from "../../utils/taskFilter/tasksFilter";
+import { selectTodolists } from "../../store/reducers/todolistsSlice/selectors";
+import { selectTasks } from "../../store/reducers/tasksSlice/selectors";
 
 interface ITodolist {
   todolist: ITodolistType

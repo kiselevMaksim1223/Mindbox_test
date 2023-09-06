@@ -1,10 +1,10 @@
-import React, { FC } from 'react';
+import React, { FC } from "react";
 import { Button } from "../../../common/components/Button/Button";
 import { useAppDispatch } from "../../../common/hooks/useAppDispatch";
 import { changeFilter } from "../../../store/reducers/todolistsSlice/slice";
 import {useAppSelector} from "../../../common/hooks/useAppSelector";
-import {ITaskType} from "../../../store/reducers/tasksSlice/types";
-import {filterValueType} from "../../../store/reducers/todolistsSlice/types";
+import { ITaskType } from "../../../store/reducers/tasksSlice/types";
+import { filterValueType } from "../../../store/reducers/todolistsSlice/types";
 
 interface IFilteredButton {
   todolistId: string

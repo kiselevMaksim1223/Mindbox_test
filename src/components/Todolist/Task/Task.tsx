@@ -1,8 +1,8 @@
 import React, { ChangeEvent, FC } from "react";
 import { useAppDispatch } from "../../../common/hooks/useAppDispatch";
 import { Button } from "../../../common/components/Button/Button";
-import {deleteTask, updateCheckbox} from "../../../store/reducers/tasksSlice/slice";
-import {ITaskType} from "../../../store/reducers/tasksSlice/types";
+import { deleteTask, updateCheckbox } from "../../../store/reducers/tasksSlice/slice";
+import { ITaskType } from "../../../store/reducers/tasksSlice/types";
 
 interface ITask {
   task: ITaskType

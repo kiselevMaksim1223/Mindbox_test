@@ -1,10 +1,10 @@
 import React from "react";
 import { Todolist } from "../Todolist/Todolist";
 import { useAppSelector } from "../../common/hooks/useAppSelector";
-import {useAppDispatch} from "../../common/hooks/useAppDispatch";
-import {addTodolist} from "../../store/reducers/todolistsSlice/slice";
-import {AddItem} from "../../common/components/addItem/AddItem";
-import {selectTodolists} from "../../store/reducers/todolistsSlice/selectors";
+import { useAppDispatch } from "../../common/hooks/useAppDispatch";
+import { addTodolist } from "../../store/reducers/todolistsSlice/slice";
+import { AddItem } from "../../common/components/addItem/AddItem";
+import { selectTodolists } from "../../store/reducers/todolistsSlice/selectors";
 
 export const Todolists = () => {
   const dispatch = useAppDispatch()
