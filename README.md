@@ -31,5 +31,5 @@
 ## Деплой
 
 Вы также можете ознакомиться с развернутой версией приложения по ссылке на платформе Netlify:
-https://mindbox-task.netlify.app/
+https://simple-tailwind-todolist.netlify.app/
 
